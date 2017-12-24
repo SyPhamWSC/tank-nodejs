@@ -1,0 +1,23 @@
+.container {
+    --border: 2px solid black;
+}
+.atv {
+    font-weight: bold;
+}
+#play-area {
+    --border: 2px solid red;
+}
+#top-tbl {
+    --border: 2px solid green;
+}
+#canv {
+    --border: 2px solid blue;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+#play-area{
+    padding: 0;
+    margin: 0;
+}
