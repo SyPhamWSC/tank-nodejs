@@ -131,7 +131,7 @@ app.get('/index',function(req,res){
     		email: sess.email
   		});
 		console.log('done');
-		res.sendFile(__dirname + '/public/views/index.html');
+		res.sendFile(__dirname + '/public/views/profile.html');
 		console.log(json);
 	}
 	else
@@ -181,7 +181,7 @@ app.get('/play',function(req,res){
 		res.sendFile(__dirname + '/src/index.html');
 	}
 
-	sess.play = true;
+	
 });
 
 //Server to play game
